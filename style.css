@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: Solway, serif;
+    position: absolute;
+    background-color: #303030;
+    color: #1D1D1D;
+}
+
+h1{
+    margin-left: 30vw;
+    margin-top: 1vh;
+    position: absolute;
+    width: 50vw;
+    font-size: 5vw;
+}
+
+h2{
+    left: 5vw;
+    font-size: 5vw;
+    position: absolute;
+}
+
+h3 {
+    top: 10vh;
+    font-size: 3vw;
+    position: absolute;
+}
+
+#hour {left: 15vw;}
+#hour1 {left: 26vw;}
+#minute {left: 40vw;}
+#minute1 {left: 51vw;}
+#second {left: 68vw;}
+#second1 {left: 79vw;}
+
+#nhour {left: 15vw;
+        top: 77vh;
+        font-size: 5vw;
+        color: #03A8FF;
+}
+#nhour1 {left: 26vw;
+        top: 77vh;
+        font-size: 5vw;
+        color: #03A8FF;
+    }
+#nminute {left: 40vw;
+        top: 77vh;
+        font-size: 5vw;
+        color: #94BE54;}
+#nminute1 {left: 51vw;
+    top: 77vh;
+    font-size: 5vw;
+    color: #94BE54;
+}
+#nsecond {left: 68vw;
+    top: 77vh;
+    font-size: 5vw;
+    color: #DB2160;}
+#nsecond1 {left: 79vw;
+    top: 77vh;
+    font-size: 5vw;
+    color: #DB2160;}
+
+#t1 {top: 80vh;}
+#t2 {top: 60vh;}
+#t4 {top: 40vh;}
+#t8 {top: 20vh;}
+
+
+.clock {
+    border-radius: 20%;
+    height: 5vw;
+    width: 4vw;
+    position: absolute;
+    color: #1D1D1D;
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.h-a{
+    left: 25vw;
+}
+.h-b{
+    left: 15vw;
+}
+.m-a{
+    left: 50vw;
+}
+.m-b{
+    left: 40vw;
+}
+.s-a{
+    left: 78vw;
+}
+.s-b{
+    left: 68vw;
+}
+
+#h1,#h10,#s1,#s10,#m1,#m10{top : 67vh;}
+#h2,#h20,#s2,#s20,#m2,#m20{top : 52vh;}
+#h4,#s4,#s40,#m4,#m40{top : 38vh;}
+#h8,#m8,#s8{top: 24vh;}
+
+
